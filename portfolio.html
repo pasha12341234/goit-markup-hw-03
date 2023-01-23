@@ -6,10 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https: //fonts.googleapis.com/css2?family= Raleway :wght@800 & display=swap"
-      rel="stylesheet"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -22,25 +18,27 @@
   <body>
     <!-- Шапка -->
     <header>
-      <div>
+      <div class="container header-box">
       <a href="./" class="logo link"
         ><span class="logo-web">WEB</span
         ><span class="logo-studio">STUDIO</span></a
       >
       <nav>
         <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="nav-link link">Studio</a></li>
-          <li class="item"><a href="./portfolio.html" class="nav-link link">Portfolio</a></li>
-          <li class="item"><a href="" class="nav-link link">Contacts</a></li>
+          <li><a href="./index.html" class="nav-link link">Studio</a></li>
+          <li>
+            <a href="./portfolio.html" class="nav-link link">Portfolio</a>
+          </li>
+          <li><a href="" class="nav-link link">Contacts</a></li>
         </ul>
       </nav>
       <ul class="site-contacts list">
-        <li  class="item">
+        <li>
           <a href="mailto:info@devstudio.com" class="contacts-link link"
             >info@devstudio.com</a
           >
         </li>
-        <li class="item">
+        <li>
           <a href="tel:+110001111111" class="contacts-link link"
             >+11 (000) 111-11-11</a
           >
@@ -50,7 +48,7 @@
     </header>
     <main>
       <section>
-        <div class="conteiner-filters">
+        <div class="container">
         <h1 hidden>List of works</h1>
         <ul class="filters-list list">
           <li class="item">
@@ -70,6 +68,7 @@
           </li>
         </ul>
       </div>
+      <div class="container">
         <ul class="portfolio-list list">
           <li>
             <a href="" class="portfolio-link link">
@@ -180,9 +179,11 @@
             </a>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
+      <div class="container footer-box">
       <a href="./" class="logo link"
         ><span class="footer-web">WEB</span
         ><span class="footer-studio">STUDIO</span></a
@@ -192,6 +193,7 @@
         sales for your business with digital <br />
         marketing & growth solutions.
       </p>
+    </div>
     </footer>
   </body>
 </html>
